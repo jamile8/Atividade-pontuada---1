@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
  
-		// Declaração de variáveis
+		// DeclaraÃ§Ã£o de variÃ¡veis
 		real A, B, C
 
 		
@@ -17,9 +17,9 @@ programa {
 
 		// Calculando
 		se(A + B > C)
-		escreva("A + B é maior que C")
+		escreva("A + B Ã© maior que C")
 		senao
-		escreva("A + B é menor que C")
+		escreva("A + B Ã© menor que C")
 		 
 
 	}
