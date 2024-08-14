@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
     
+     
     real preco_Maca, preco_Morango, peso_Maca, peso_Morango, total_Maca = 0, total_Morango = 0, final
 
     preco_Maca = 1.8
@@ -35,9 +36,3 @@ programa {
 		
 	
 }
-
-
-
-
-
-
