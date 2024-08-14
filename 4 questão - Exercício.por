@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     
-   real preco_Maca, preco_Morango, peso_Maca, peso_Morango, total_Maca = 0, total_Morango = 0, final
+    real preco_Maca, preco_Morango, peso_Maca, peso_Morango, total_Maca = 0, total_Morango = 0, final
 
     preco_Maca = 1.8
     preco_Morango = 2.5
@@ -35,13 +35,6 @@ programa {
 		
 	
 }
-
-
-      escreva("\nPreço Final da Compra: R$ ", final)
-    }
-
-
-
 
 
 
