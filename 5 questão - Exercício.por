@@ -13,20 +13,20 @@ programa {
     escreva("Digite o valor de B: ")
     leia(B)
 
-    escreva("Digite qual operação deseja realisar: ")
+    escreva("Digite qual operaÃ§Ã£o deseja realisar: ")
     leia(operacao)
 
     //Calculando
-    se(operacao == "soma" )
+    se(operacao == "soma" ){}
     soma = A + B 
 
-    se(operacao == "multiplicacao")
+    se(operacao == "multiplicacao"){}
     multiplicacao = A * B
 
-    se(operacao == "subtracao")
+    se(operacao == "subtracao"){}
     subtracao = A - B
 
-    se (operacao == "divisao")
+    se (operacao == "divisao"){}
     divisao = A / B
 
     //Resultado
@@ -34,7 +34,8 @@ programa {
    escreva("\nMultiplicacao: " + multiplicacao)
    escreva("\nSubtracao: " + subtracao)
    escreva("\nDivisao: " + divisao)
-   escreva("\nResultado: " + resultado)
-  }
+   
+  
+}
 }
 
