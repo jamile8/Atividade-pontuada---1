@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    	//Declarando variaveis
+    //Declarando variaveis
     
     inteiro soma, subtracao, multiplicacao, divisao, resultado
     cadeia operacao
