@@ -12,7 +12,7 @@ programa {
 		escreva("Digite seu sexo (M/F): ")
 		leia(sexo)
 
-		escreva("Digite seu estado_civil: (Solteiro(a), Casado(a), Divorcido(a), Viúvo(a): ")
+		escreva("Digite seu estado_civil - Solteiro(a), Casado(a), Divorcido(a), Viúvo(a): ")
 		leia(estado_civil)
 
 		//Calculando
