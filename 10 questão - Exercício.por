@@ -1,30 +1,37 @@
 programa {
   funcao inicio() {
-    real litros, combustivel, preco
 
-    escreva("Digite quantos litros você quer abastecer : ")
-    escreva("Digite A para álcool e G para gasolina: ")
-    preco = 0
+    real alcool = 3.79, gasolina = 6.59, valor_desconto, litros
+		cadeia combustiveis
 
-    se(combustivel == "A" ou combustivel == "a")
-    preco = litros * 1.9
+		escreva("Digite A para alcool e G para gasolina: ")
+		leia(combustiveis)
 
-    se(litros <= 20)
-    preco-= 1.9 * litros * 3 / 100
-    senao
-    preco -= 1.9 * litros * 5 / 100
-    se (combustivel == "G" ou combustivel == "g")
-    preco = litros * 2.5
+		escreva("Quantos litros vocÃª deseja: ")
+		leia(litros)
 
-    se(litros <= 20)
-    preco = 2.5 * litros * 4 / 100
-    senao
-    preco = 2.5 * litros * 6 / 100
+		se(litros<=25 e combustiveis == "A")
+		escreva("VocÃª recebeu um desconto de 2%")
 
-    escreva("O preço a págar é R$: " + preco)
+		valor_desconto = (alcool * litros) - 0.02
 
+    escreva("\nValor com desconto: R$" + valor_desconto)
+    
+    se(litros> 25 e combustiveis == "A")
+    escreva("VocÃª recebeu um desconto de 4%")
+    valor_desconto = (alcool * litros) - 0.04
 
+    escreva("\nValor com desconto: R$" + valor_desconto)
 
+    se(litros> 25 e combustiveis == "G")
+    escreva("VocÃª recebeu um desconto de 3 %")
+    valor_desconto = (alcool * litros) - 0.03
+    escreva("\nValor com desconto: R$" + valor_desconto)
 
+    se(litros> 25 e combustiveis == "G")
+    escreva("VocÃª recebeu um desconto de 5%" )
+
+    valor_desconto = (alcool * litros) - 0.05
+    escreva("\nValor com desconto: R$" + valor_desconto)
   }
 }
