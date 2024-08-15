@@ -3,8 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		// Declarando vari·veis
-		inteiro A, B, soma, multiplicacao
+		// Declarando vari√°veis
+		inteiro A, B, C
 		
 		// Solicitrando dados
 		escreva("Digite o valor de A: ")
@@ -15,15 +15,14 @@ programa
 
 		// Calculando
 		se (A == B){ 
-		soma = A + B
+		C = A + B
 
 		}senao{
-		multiplicacao = A * B
+		C = A * B
 		}
-		
-		// Resultado
-		escreva("\nVari·vel c: " + soma)
-		escreva("\nVari·vel c: " + multiplicacao)
-	}
 
+		escreva("\nC: " + C)
+
+
+  }
 }
