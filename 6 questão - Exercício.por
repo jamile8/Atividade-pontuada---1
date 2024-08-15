@@ -1,24 +1,28 @@
 programa {
   funcao inicio() {
+
+    //Declara√ß√£o de V√°riaveis
     real primeira_nota, segunda_nota, media
 
     escreva("Digite a primeira nota: ")
     leia(primeira_nota) 
 
-    escreva("Digite a segunda_nota: ")
+    escreva("Digite a segunda nota: ")
     leia(segunda_nota)
 
+    //Calculando
     media = (primeira_nota + segunda_nota) / 2
 
-    se(media < 4)
-    escreva("Est· em RecuperaÁ„o")
-
     se(media == 4)
-    escreva("Est· em RecuperaÁ„o")
+    escreva("Est√° em Recupera√ß√£o")
+
+    se(media < 4)
+    escreva("Est√° em Reprovado(a)")
 
     se(media >= 6)
-    escreva("ParabÈns! Est· aprovado")
+    escreva("Parab√©ns! Est√° aprovado(a)")
 
-    escreva("\nMÈdia: " + media)
+    escreva("\nM√©dia: " + media)
+  
   }
 }
