@@ -2,7 +2,7 @@ programa {
   funcao inicio() {
     //Declarando variaveis
     
-    inteiro soma, subtracao, multiplicacao, divisao, resultado
+    inteiro soma, subtracao, multiplicacao, divisao
     cadeia operacao
     inteiro A, B
 
@@ -19,22 +19,19 @@ programa {
     //Calculando
     se(operacao == "soma" ){}
     soma = A + B 
-
+    escreva("\nSoma: " + soma)
+   
     se(operacao == "multiplicacao"){}
     multiplicacao = A * B
+    escreva("\nMultiplicacao: " + multiplicacao)
 
     se(operacao == "subtracao"){}
     subtracao = A - B
+    escreva("\nSubtracao: " + subtracao)
 
     se (operacao == "divisao"){}
     divisao = A / B
-
-    //Resultado
-   escreva("\nSoma: " + soma)
-   escreva("\nMultiplicacao: " + multiplicacao)
-   escreva("\nSubtracao: " + subtracao)
-   escreva("\nDivisao: " + divisao)
-   
+    escreva("\nDivisao: " + divisao)
   
 }
 }
